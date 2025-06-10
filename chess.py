@@ -1,3 +1,4 @@
+fen  = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 def parse_fen(fen):
     # Please complete this function
     fen_pieces, to_move, castling_rights, ep, hm, fm = fen.split(" ")
